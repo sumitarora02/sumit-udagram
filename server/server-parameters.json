@@ -1,0 +1,23 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "SumitUdagramProject"
+    },
+    {
+		"ParameterKey": "InstanceType",
+		"ParameterValue": "t2.medium"
+    },
+    {
+        "ParameterKey": "InstanceAMI",
+        "ParameterValue": "ami-0ac73f33a1888c64a"
+    },
+    {
+      "ParameterKey": "S3CodeBucketName",
+      "ParameterValue": "udacity-demo-1"
+    } ,
+    {
+      "ParameterKey": "S3CodeArchive",
+      "ParameterValue": "udacity.zip"
+    } 
+
+]

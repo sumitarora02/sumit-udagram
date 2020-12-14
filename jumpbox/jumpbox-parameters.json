@@ -1,0 +1,24 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "SumitUdagramProject"
+    },
+	{
+		"ParameterKey": "InstanceType",
+		"ParameterValue": "t2.micro"
+    },
+    {
+        "ParameterKey": "InstanceAMI",
+        "ParameterValue": "ami-0ac73f33a1888c64a"
+    },
+    {
+        "ParameterKey": "KeyName",
+        "ParameterValue": "udagramJumpboxKey"
+    },
+    {
+        "ParameterKey": "SSHLocation",
+        "ParameterValue": "0.0.0.0/0"
+    }
+
+
+]
