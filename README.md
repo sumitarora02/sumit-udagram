@@ -45,6 +45,8 @@ Execute the below scripts in the same order.
 
 Access the website link from the output from the Load Balancer - 
 
+http://serve-WebAp-1KIW48HUC1JB6-1914843785.us-west-2.elb.amazonaws.com
+
 
 ##### Rollback - 
 In case you wish to rollback the cloud formation stacks, you can do it one by one - all thanks to the in-built modularity.
