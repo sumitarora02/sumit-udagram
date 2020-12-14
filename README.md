@@ -1,5 +1,7 @@
-# Sumit Udagram Project
-Udagram project by Sumit Arora for Udacity Cloud DevOps Nanodegree program. This project intends to deploy a high availability web app using Cloud Formation.
+# Udagram Project
+  ##### Author - Sumit Arora
+Udagram project by Sumit Arora for Udacity Cloud DevOps Nanodegree program. 
+This project intends to deploy a high availability web app using Cloud Formation.
 
 ## Problem - 
 Your company is creating an Instagram clone called Udagram. Developers pushed the latest version of their code in a zip file located in a public S3 Bucket.
@@ -9,7 +11,8 @@ This needs to be done in an automated fashion so that the infrastructure can be 
 ## Solution - 
 
 ### Diagram - 
-![image](C:\Sumit\Udacity_Projects\Udagram-sumitarora\Udagram_Arch_SumitArora.jpeg)
+![alt text](https://github.com/sumitarora02/sumit-udagram/blob/main/Udagram_Arch_SumitArora.jpeg?raw=true)
+
 
 ### Description - 
 The project is divided into various modules to allow continuous integration while working in a team.
