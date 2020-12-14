@@ -28,8 +28,15 @@ Please follow the below steps to execute this project successfully.
 
 Deployment - 
 Execute the below scripts in the same order.
-1. 
-2. 
+
+1. Clone the repository from Github (https://github.com/sumitarora02/sumit-udagram) into your local machine, or download the code directly from github master.
+2. Execute the below to create public and private keys and upload to AWS.
+./utils/create-secure-key.sh
+3. Execute the below to create iam stack with all the relevant roles and policies for accessing the public S3 bucket provided by Udacity.
+./utils/create-stack.sh iam-stack iam/iam-stack-template.yml iam/iam-parameters.json
+./utils/create-stack.sh network-stack network/network-stack-template.yml network/network-parameters.json
+./utils/create-stack.sh jumpbox-stack jumpbox/jumpbox-stack-template.yml jumpbox/jumpbox-parameters.json
+./utils/create-stack.sh server-stack server/server-stack-template.yml server/server-parameters.json
 
 Access the website link from the output from the Load Balancer - 
 
